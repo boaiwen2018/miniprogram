@@ -1,12 +1,39 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/me/me",
+    "pages/privilege/privilege",
+    "pages/auth/auth"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTitleText": "小白家园",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#f10b2e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/1.jpg",
+        "selectedIconPath": "images/1.jpg"
+      },
+      {
+        "pagePath": "pages/privilege/privilege",
+        "text": "特权",
+        "iconPath": "images/3.jpg",
+        "selectedIconPath": "images/3.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/4.jpg",
+        "selectedIconPath": "images/4.jpg"
+      }
+    ]
+  },
+  "debug": false
 }
